@@ -5,7 +5,7 @@ class Cliente():
         self.endereco = endereco
         self.tel = tel 
 
-    def print(self):
-        print(self.id, self.nome, self.endereco, self.tel)
+    def exibir(self):
+        print(f'ID: {self.id} - Nome: {self.nome} - Endereço: {self.endereco} - Telefone: {self.tel}')
 
 

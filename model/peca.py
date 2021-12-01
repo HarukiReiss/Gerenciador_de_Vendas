@@ -1,12 +1,12 @@
 class Peca():
-    def __init__(self, cod, nome, valor, validade):
-        self.cod = cod
+    def __init__(self, id, nome, valor, validade):
+        self.id = id
         self.nome = nome
         self.valor = valor 
         self.validade = validade
 
-    def print(self):
-        print(self.cod, self.nome, self.valor, self.validade)
+    def exibir(self):
+        print(f'ID: {self.id} - Nome: {self.nome} - Valor: R${self.valor} - Validade: {self.validade}')
 
 
 
