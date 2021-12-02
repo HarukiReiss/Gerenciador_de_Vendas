@@ -1,4 +1,3 @@
-
 lista_pecas = []
 
 def add(nova_peca):
@@ -7,9 +6,20 @@ def add(nova_peca):
 def edit():
     pass
 
+
 def delete():
     pass
+
 
 def listAll():
     for e in lista_pecas:
         e.exibir()
+
+
+def view():
+    pass
+
+
+
+
+
