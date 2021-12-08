@@ -12,15 +12,15 @@ class MainWindow(QMainWindow):
 
         self.inicio_page = InicioPage()
         self.cliente_page = ClientePage()
-        self.peca_page = PecaPage
+        self.peca_page = PecaPage()
 
-        self.painel_principal.insertWidget(0,self.inicio_page)
-        self.painel_principal.insertWidget(1,self.cliente_page)
-        self.painel_principal.insertWidget(2,self.peca_page)
+        self.painel_principal.insertWidget(0, self.inicio_page)
+        self.painel_principal.insertWidget(1, self.cliente_page)
+        self.painel_principal.insertWidget(2, self.peca_page)
 
         self.inicio_btn.clicked.connect(self.show_inicio)
         self.cliente_btn.clicked.connect(self.show_cliente)
-        self.produto_btn.clicked.connect(self.show_peca)
+        self.produto_btn.clicked.connect(self.show_pecas)
 
     def show_inicio(self):
         self.painel_principal.setCurrentIndex(0)

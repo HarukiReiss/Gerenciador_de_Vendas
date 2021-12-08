@@ -5,4 +5,4 @@ FILE_UI = 'view/inicio.ui'
 class InicioPage(QWidget):
     def __init__(self):
         super().__init__()
-        uic.loadUI(FILE_UI, self)
+        uic.loadUi(FILE_UI, self)

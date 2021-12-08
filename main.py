@@ -5,6 +5,6 @@ app = QApplication(sys.argv)
 
 window = MainWindow()
 window.show()
-
+app.setStyle('Fusion')
 app.exec()
 

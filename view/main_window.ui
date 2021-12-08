@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>707</width>
-    <height>518</height>
+    <width>748</width>
+    <height>520</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,9 +17,9 @@
    <widget class="QStackedWidget" name="painel_principal">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>160</x>
       <y>9</y>
-      <width>511</width>
+      <width>571</width>
       <height>461</height>
      </rect>
     </property>
@@ -29,7 +29,7 @@
     <widget class="QWidget" name="page"/>
     <widget class="QWidget" name="page_2"/>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>11</x>
@@ -107,7 +107,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>707</width>
+     <width>748</width>
      <height>21</height>
     </rect>
    </property>
